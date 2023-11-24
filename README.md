@@ -1,31 +1,30 @@
-## About Laravel
+# About Laravel
 
-Projeto pré-configurado para servir de base para todos os projetos em Laravel.
+Esse é um projeto pré-configurado para servir de base para futuros os projetos que utilizem o Laravel.
 
-## Stacks Utilizadas
+# Informações rápidas sobre a tecnologia do projeto
 
-- Laravel Sail
-- Laravel Breeze
-- Livewire
+- Linguagem de Programação: php 8.2
+- Framework: Laravel 10
+- Banco de Dados: MySQL
 
-## Stacks Utilizadas (em DEV)
+## Stacks 
 
-- Debugbar
+- Containeres: Laravel Sail
+- Autenticação: Laravel Breeze
+- Componentes: Livewire V2
+- Debug: Debugbar (em Dev)
 
-## Tecnologias Utilizadas
+# Como utilizar o projeto
 
-- MySQL - Banco de Dados
+1. Defina as variáveis de ambiente referentes Banco de Dados no arquivo '.env'.
 
-## Como Utilizar o projeto
-
-1. Definir as variáveis de Ambiente referentes Banco de Dados
-
-2. Levantando os containers
+2. Suba os containeres da aplicação.
 ~~~~
 .vendor/bin/sail up -d
 ~~~~
 
-3. Rodando as Migrations e as Seeders para popular o Banco de Dados
+3. Rode as Migrations e as Seeders para popular o Banco de Dados da aplicação.
 ~~~~
 php artisan migrate:seed
 ~~~~
